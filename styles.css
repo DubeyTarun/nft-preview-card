@@ -1,0 +1,138 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+p{
+  font-size: 1.125rem;
+}
+
+hr{
+  margin: 25px auto 15px;;
+  border-color: hsl(215, 51%, 70%);
+}
+
+
+/************Class Selectors****************/
+
+.anchor{
+  text-decoration: none;
+}
+
+.anchor:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.clock{
+  padding-top: 2px;
+  position: absolute;
+  right: 75px;
+}
+
+.cover-up{
+  border-radius: 1.5rem;
+  background-color: white;
+  height: 345.60px;
+  opacity: 0;
+  position: absolute;
+  bottom:  260px;
+  width: 331.20px;
+}
+
+.cover-up:hover{
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.7;
+  width: 331.20px;
+}
+
+.days{
+  position: relative;
+  text-align: right;
+}
+
+.description{
+  text-align: left;
+  line-height: 1.5;
+}
+
+.enclosing-container{
+  background-color: hsl(216, 50%, 16%);
+  padding: 1.65rem;
+  padding-bottom: 2rem;
+  position: relative;
+  border-radius: 1rem;
+  height: 36rem;
+}
+
+.eth{
+  position: relative;
+}
+
+.ethereum, .clock{
+  float: left;
+}
+
+.eth-balance{
+  position: absolute;
+  right: 242px;
+}
+
+.equilibrium{
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.eye{
+  margin-top: 148.8px;
+  opacity: 1;
+}
+
+.owner{
+  border: solid 1px;
+  border-color: hsl(0, 0%, 100%);
+  border-radius: 100%;
+  float: left;
+  height: 2rem;
+  width: 2rem;
+}
+
+.owner-name{
+  left: 55px;
+  position: absolute;
+  top: 5px;
+}
+
+.owner-details{
+  position: relative;
+}
+
+.top-container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 100%;
+  height: 38rem;
+  margin: 192px auto;
+  width: 24rem;
+}
+
+.img-equilibrium{
+  border-radius: 1.5rem;
+  height: 60%;
+  width: 100%;
+}
+
+.img-equilibrium:hover{
+  background-color: red;
+}
+
+.cyan-color{
+  color: hsl(178, 100%, 50%);
+}
+
+.soft-blue-color{
+  color: hsl(215, 51%, 70%);
+}
+
+.white-color{
+  color: hsl(0, 0%, 100%);
+}
